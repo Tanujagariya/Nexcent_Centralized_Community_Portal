@@ -85,6 +85,7 @@ header{
     border-radius: 3px;
     font-weight: 300;
     cursor: pointer;
+    text-decoration: none;
 }
 .register-btn:hover{
     background-color: var(--button-hover);
@@ -124,6 +125,7 @@ header{
 .navv{
     display: flex;
     gap: 25px;
+
 }
 #container{
     display: flex    ;
@@ -242,7 +244,13 @@ width: 400px;
 .members-- h4{
     margin: 0;
 }
+.members-- img{
+    width: 30px;
 
+}
+.section5 img{
+    width: 400px;
+}
 #section6{
     padding: 130px 0;
     text-align: center;
@@ -269,7 +277,7 @@ width: 400px;
     padding: 10px;
     border-radius: 5px;
 }
-#craft-con{
+#craft-icon{
     width: 35%;
     margin: 20px auto;
 }
